@@ -12,5 +12,13 @@ composer require vabondarenko/zcash-php
 
 How to parse ZCash block:
 ```php
-ZCashBlockFactory::fromHex($hex);
+use BitWasp\Bitcoin\Bitcoin;
+use BitWasp\Bitcoin\Network\NetworkFactory;
+use ZCash\ZCashBlockFactory;
+
+
+$network = NetworkFactory::zcash();
+Bitcoin::setNetwork($network);
+
+$block = ZCashBlockFactory::fromHex($hex);
 ```
