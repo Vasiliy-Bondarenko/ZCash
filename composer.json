@@ -1,5 +1,15 @@
 {
   "name": "vabondarenko/zcash-php",
+  "description": "ZCash extension for bitwasp/bitcoin package",
+  "license": "Unlicense",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Vasiliy Bondarenko",
+      "homepage": "https://www.linkedin.com/in/vasiliy-bondarenko/",
+      "role": "Author"
+    }
+  ],
   "repositories": [
     {
       "type": "vcs",
