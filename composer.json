@@ -1,0 +1,20 @@
+{
+  "name": "vabondarenko/zcash-php",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Vasiliy-Bondarenko/bitcoin-php"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php-64bit": ">=5.6",
+    "bitwasp/bitcoin": "dev-allow-transaction-serializer-extension",
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZCash\\": "src/"
+    }
+  }
+}
